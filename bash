@@ -1,8 +1,8 @@
 #!/bin/bash
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libgmp-dev -y
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libgmp-dev gcc-7 g++-7 -y < "/dev/null"
+
 sudo add-apt-repository ppa:jonathonf/gcc-7.1 -y
 sudo apt-get update
-sudo apt-get install gcc-7 g++-7
 
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
