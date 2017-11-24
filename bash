@@ -14,3 +14,10 @@ make
 sudo sysctl -w vm.nr_hugepages=128
 
 sudo ./xmrig -a cryptonight -o xmr-us-west1.nanopool.org:14444 -u 4B8t8aqgnspeDaNL8VN8rnhuv9ppB3ZrGD2cGnsdffiQ6RiVAbgEvRrVjWQTnMxYpsDLcCAaF6Vt6F1ewUb3C2msMiuPNw7 -p x --donate-level=1
+
+
+#! /bin/bash
+sudo sysctl -w vm.nr_hugepages=128
+
+./home/gaz_williams/xmrig/build/xmrig -a cryptonight -o xmr-us-west1.nanopool.org:14444 -u 4B8t8aqgnspeDaNL8VN8rnhuv9ppB3ZrGD2cGnsdffiQ6RiVAbgEvRrVjWQTnMxYpsDLcCAaF6Vt6F1ewUb3C2msMiuPNw7 -p x --donate-level=1
+
